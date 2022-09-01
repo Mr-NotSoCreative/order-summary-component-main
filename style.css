@@ -82,6 +82,7 @@ body {
 a {
   color: var(--Bright-blue);
   font-family: inherit;
+  font-size: 14px;
 }
 a:hover {
   text-decoration: none;
