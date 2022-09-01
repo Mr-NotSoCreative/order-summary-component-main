@@ -136,10 +136,8 @@ body {
 }
 @media screen and (max-width: 350px) {
   .plan-div {
-    
     flex-direction: column;
     gap: 10px;
     justify-content: center;
-    
-}
+  }
 }
