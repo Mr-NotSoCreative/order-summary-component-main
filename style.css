@@ -9,6 +9,7 @@
     --Very-pale-blue: hsl(225, 100%, 98%);
     --Desaturated-blue: hsl(224, 23%, 55%);
     --Dark-blue: hsl(223, 47%, 23%);
+    --hover-clr: hsl(245, 83%, 68%);
 }
 * {
     margin: 0;
@@ -68,4 +69,50 @@ body {
 }
 .plan-bold {
     font-weight: bold;
+}
+a {
+    color: var(--Bright-blue);
+    font-family: inherit;
+    
+}
+a:hover {
+    text-decoration: none;
+    color: var(--hover-clr);
+}
+.button-div {
+    margin: 15px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.btn {
+    font-family: inherit;
+    font-weight: bold;
+
+}
+.btn1 {
+    border: none;
+    background-color: var(--Bright-blue);
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 15px 20px 1px #dcd9f6;
+
+
+}
+.btn2 {
+    margin-top: 10px;
+    border: none;
+    background: none;
+    color: var(--Desaturated-blue);
+}
+.btn:hover {
+    cursor: pointer;
+}
+.btn1:hover {
+    background-color: var(--hover-clr);
+
+}
+.btn2:hover {
+    color: var(--Dark-blue);
 }
