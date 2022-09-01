@@ -33,6 +33,13 @@ body {
     object-fit: cover;
     border-radius: 10px 10px 0 0;
 }
+
+.title {
+    color: var(--Dark-blue);
+}
+.title-desc, .price {
+    color: var(--Desaturated-blue);
+}
 .card {
     max-width: 450px;
     background-color: white;
@@ -45,4 +52,20 @@ body {
 }
 .title-div > * {
     margin: 15px 0;
+}
+.plan-div {
+    margin: 15px 0;
+    background-color: var(--Very-pale-blue);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+.plan-column {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.plan-bold {
+    font-weight: bold;
 }
