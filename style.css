@@ -79,12 +79,12 @@ body {
 .plan-bold {
   font-weight: bold;
 }
-a {
+.change-link {
   color: var(--Bright-blue);
   font-family: inherit;
   font-size: 14px;
 }
-a:hover {
+.change-link:hover {
   text-decoration: none;
   color: var(--hover-clr);
 }
